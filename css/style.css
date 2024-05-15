@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    background: #141213;
+    color: #fff;
+
+}
+.header{
+    background-color: orange;
+}
+.header .nav{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+    color: #000000;
+}
+.header .hero-img{
+    background-color: #141213;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 100%;
+}
+.main .main-title{
+    color: orange;
+    margin: 30px 150px;
+    font-size: 45px;
+}
+.main .first-items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.main .first-items .item{
+    width: 20%;
+    margin: 15px;
+    border: 1px solid rgb(155, 137, 137);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.main .first-items .item img{
+    width: 100%;
+}
+.item .model , .stock , .price{
+    margin: 7px 0 5px 20px;
+    font-size: 18px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+}
